@@ -50,6 +50,7 @@ class TimeAxis extends Component {
           default:
             break;
         }
+        return 1;
       });
     
       const responseFuel = await(axios.get('https://my.api.mockaroo.com/co2.json?key=8eb9e6f0')); 
@@ -77,7 +78,7 @@ class TimeAxis extends Component {
             default:
               break;
          }
-          
+         return 1;
       });
     
       const responseTemp = await(axios.get('https://my.api.mockaroo.com/temp.json?key=8eb9e6f0')); 
@@ -105,9 +106,9 @@ class TimeAxis extends Component {
             default:
               break;
           }
-          
+          return 1;
       });
-
+return 1;
     }
     
     componentDidMount() {

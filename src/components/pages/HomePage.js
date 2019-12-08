@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import tallpic from "../tallpic4.gif";
 import pic from "../micropeel.jpg";
 import num1 from "./num1.jpg";
+import num2 from "./num2.jpg";
+import num3 from "./num3.gif";
 
 
 
@@ -14,7 +16,7 @@ render() {
    
    <div className="mediaBox">
         <div className="media">
-            <img src={pic} className="ml-3 pic1" alt="..."/>
+            <img src={pic} className="ml-3 pic1" alt="a woman washing her face with a peeling mask"/>
             <div className="media-body">
                     <span className="coolTitle">
                     <h4 className="mt-0">Your peeling routine kills the poor fishes</h4>
@@ -22,14 +24,13 @@ render() {
                     <div className="texter">
                     <p className="article1-text">Did you know there’s a big chance your peeling cream contains microplastic? That after the peeling has done its job on your beautiful face and you wash it off the plastic ends up in our sea and lakes.</p>
                     <p className="article1-text">The plastic gather toxins and end up in the poor fishes stomachs’s. I bet this wasn’t something you were thinking of when trying to keep your skin looking flawless and glowing. </p>
-                    
                     </div>
             </div>
         </div>
         <div className="media">
             <div className="media-body">
             <div className="content-in-media">
-            <span className="coolTitle">
+            <span className="coolTitle title-2">
             <h4 className="mt-0">Why clothes hurt our lovely planet</h4>
             </span>
                 <div className="texter">
@@ -39,7 +40,7 @@ render() {
             </div>
             </div>
             </div>
-            <img src={tallpic} className="ml-3 pic2" alt="..." />
+            <img src={tallpic} className="ml-3 pic2" alt="a woman" />
         </div>
 
 
@@ -48,17 +49,50 @@ render() {
             <span className="coolTitle">
                 <h4 className="mt-0 h4-last">Who saves the world? GIRLS!</h4>
                 </span>
-                <p className="article1-text p-last">Now that you know, what can we do to prevent our habits from destroying our planet? We know change can be hard, but we’re not going to ask you to change anything drastic, but we all have to do something.</p>
-                
-                
+                <p className="article1-text p-last">Now that you know a bit more about how we hurt our environment you may ask, but what can I do? </p>
+                <p className="p-last">Well, we know change can be tuff, but we’re not going to ask you to change anything drastic. Although, everyone can do something and we’re going to give you three small tips!</p>
             </div>
-            
         </div>
-        <div className="tips-pics">
-                <img src={num1} className="tips-pics-fixs" alt="..."></img>
-                <img src={num1} className="tips-pics-fixs" alt="..."></img>
-                <img src={num1} className="tips-pics-fixs tips-pic-3" alt="..."></img>
+
+    
+    <div className="card"> 
+        <div class="card-group tips-group">
+            <div class="card tips-tricks">
+                <img src={num1} class="card-img-top tips-pics-fixs" alt="ingredients for a face mask "></img>
+                <div class="card-body tips-body">
+                    <span className="coolTitle tips-1">
+                        <h5 class="tips-tricks-h5-1">DIY Strawberry Scrub</h5>
+                    </span>
+                    <p class="tips-pics-text">Few ingredients, simple to make and lovely to use. Your skin will love it and so will the environment!</p>
+                    <a href="#" className="receipe-link">See Recipe here</a>
                 </div>
+            </div>
+            <div class="card tips-tricks">
+                <img src={num2} class="card-img-top tips-pics-fixs" alt="clothes hanging to dry"></img>
+                <div class="card-body tips-body">
+                    <span className="coolTitle tips-2">
+                        <h5 class="tips-tricks-h5-2">Does it really need a wash?</h5>
+                    </span>
+                    <p class="tips-pics-text">Wash less and weather your clothes instead. It’s good for the environment and your clothes will last longer. </p>
+
+                </div>
+            </div>
+            <div class="card tips-tricks">
+                <img src={num3} class="card-img-top tips-pics-fixs num-3" alt="a woman looking at a garment"></img>
+                <div class="card-body tips-body">
+                    <span className="coolTitle tips-3">
+                        <h5 class="tips-tricks-h5-3">Look for hidden diamonds!</h5>
+                    </span>
+                    <p class="tips-pics-text">Take a search in your closet, you will always find something you forgot yet love!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+
+
+
+
     </div>
     
 
