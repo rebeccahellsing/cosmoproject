@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba7470581a1b98ec94d69189a66c8992",
+    "revision": "80420a94e6ac5ee348ef2d87346fbdfe",
     "url": "/cosmoproject/index.html"
   },
   {
-    "revision": "c1cbf2efc1752e15a993",
+    "revision": "38cca03ad30ff855a7cd",
     "url": "/cosmoproject/static/css/2.1bd11376.chunk.css"
   },
   {
-    "revision": "30d82dd8d6387109e497",
+    "revision": "a2b5670eb6382ebad7b2",
     "url": "/cosmoproject/static/css/main.4976c8a5.chunk.css"
   },
   {
-    "revision": "c1cbf2efc1752e15a993",
-    "url": "/cosmoproject/static/js/2.cdfd5317.chunk.js"
+    "revision": "38cca03ad30ff855a7cd",
+    "url": "/cosmoproject/static/js/2.74227502.chunk.js"
   },
   {
-    "revision": "30d82dd8d6387109e497",
-    "url": "/cosmoproject/static/js/main.bd965490.chunk.js"
+    "revision": "a2b5670eb6382ebad7b2",
+    "url": "/cosmoproject/static/js/main.9ce80970.chunk.js"
   },
   {
-    "revision": "576313862a7bf8d302f1",
-    "url": "/cosmoproject/static/js/runtime-main.350c96ba.js"
+    "revision": "477780ac16a63005508b",
+    "url": "/cosmoproject/static/js/runtime-main.44fed171.js"
   },
   {
     "revision": "d499d8abed29d2ced12170635d1fd620",
