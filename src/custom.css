@@ -341,27 +341,27 @@ a:hover {
     min-height: 60em;
     padding-left: 15em;
     padding-right: 15em;
-    padding-bottom: 4em;
+    padding-bottom: 10em;
     }
 
 .recharts-wrapper {
-    padding-left: 15em;
+    padding-left: 3em;
+    padding-bottom: 10em;
 }
 
 .descriptionCentimeter {
     text-align:left; 
     font-weight: bold;
-    margin-left: 13em;
+    margin-left: 3em;
     opacity: 0.7;
     }
 
 .descriptionYear {
     text-align:right;
-    margin-right: 12em; 
+    padding-right: 5em; 
     font-weight: bold;
     opacity: 0.7;
-    float: right;
-    margin-top: 29.5em;
+   
     }
 
 .timeCardDesc {
@@ -376,7 +376,7 @@ a:hover {
 }
 
 #slider {
-    margin-left: 21em !important;
+    margin-left: 15em !important;
 }
 
 /*Footer.js (Footer)*/

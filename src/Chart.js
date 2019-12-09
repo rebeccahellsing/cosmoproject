@@ -36,12 +36,13 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
         <h5 className="card-title-graph">Waterlevels now and then</h5>
         <p className="chartP">The graph shows the water levels throughout the years. Slide the applicator to see how the levels changes from 1945-2014.</p>
          <p className="descriptionCentimeter">Centimeter</p>
-      <p className="descriptionYear">Year</p>
+        
             <AreaChart //LineChart uses Lines || AreaChart uses Area
             width={800}
             height={600}
             data={data} 
             >
+         
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="year" />
         <YAxis />
@@ -51,6 +52,8 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
         <Area type="monotone" dataKey="GMSLPos" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
         <Area type="monotone" dataKey="GMSLNeg" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
       </AreaChart> 
+
+      <p className="descriptionYear">Year</p>
 
         <div id="slider">
         <Range 
