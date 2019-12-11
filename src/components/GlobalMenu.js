@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from "../logotype.png";
+import logo from "./pic/logotype.png";
 
 
 
@@ -10,21 +10,21 @@ render() {
         <nav>
             
             <ul className="nav justify-content-center">
-                <img src={logo} className="logo" ></img>
+                <img src={logo} className="logo"  alt="logotype"></img>
                 <li className="nav-item" >
-                    <a className="nav-link active" href="#" >style</a>
+                    <a className="nav-link active" href="https://www.cosmopolitan.com/" alt="menu style">style</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">beauty</a>
+                    <a className="nav-link" href="https://www.cosmopolitan.com/"  alt="menu beauty">beauty</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">sex</a>
+                    <a className="nav-link" href="https://www.cosmopolitan.com/"  alt="menu sex">sex</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">politics</a>
+                    <a className="nav-link" href="https://www.cosmopolitan.com/" alt="menu politics">politics</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">astrology TEXT</a>
+                    <a className="nav-link" href="https://www.cosmopolitan.com/"  alt="menu astrology">astrology</a>
                 </li>
 
                 

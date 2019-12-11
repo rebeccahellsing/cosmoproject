@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import headerImg from "./cosmoheader.gif";
+import headerImg from "./pic/cosmoheader.gif";
 
 
 class Header extends Component {

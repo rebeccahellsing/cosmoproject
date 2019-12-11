@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
 import GlobalMenu from "./components/GlobalMenu.js";
-import HomePage from "./components/pages/HomePage.js";
+import HomePage from "./components/HomePage.js";
 import TimeAxis from "./components/TimeAxis.js";
 import './custom.css';
 import './App.css'; //Graf Css 
-import Chart from './Chart.js';
+import Chart from './components/Chart.js'; 
 import axios from 'axios'; 
 import 'rc-slider/assets/index.css';
 

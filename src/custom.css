@@ -265,8 +265,8 @@ a:hover {
  
  .p-last {
      text-align: center;
-     padding-left: 9em;
-     padding-right: 9em;
+     padding-left: 6em;
+     padding-right: 6em;
      padding-top: 2em;
      }
  
@@ -299,7 +299,7 @@ a:hover {
  
  .tips-1::after {
      filter: invert(75%) sepia(60%) saturate(4066%) hue-rotate(145deg) brightness(93%) contrast(101%);
- }
+    }
  
  .tips-2::after {
      filter: invert(79%) sepia(50%) saturate(7000%) hue-rotate(301deg) brightness(95%) contrast(92%);
@@ -315,7 +315,7 @@ a:hover {
  
  .receipe-link {
      color:#212529;
-     margin-right: 9.1em;
+     margin-right: 5.1em;
      }
  
  
@@ -345,7 +345,7 @@ a:hover {
     }
 
 .recharts-wrapper {
-    padding-left: 3em;
+    padding-left: 0em;
     padding-bottom: 10em;
 }
 
@@ -376,7 +376,7 @@ a:hover {
 }
 
 #slider {
-    margin-left: 15em !important;
+    margin-left: 13em !important;
 }
 
 /*Footer.js (Footer)*/
@@ -414,6 +414,8 @@ a:hover {
     font-family: Futura, Helvetica, Arial,Sans-serif;
     font-size: .75rem;
     line-height: 1.5rem;
+    text-align: left;
+    margin-left: 5.4em;
     }
 
 /*Om vi vill lägga till text i tidsaxeln

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Card from './Card.js';
-import pic from "./icebergN1.png";
-import pic2 from "./icebergN222.png"
-import pic3 from "./iceberg33.png";
+import pic from "./pic/icebergN1.png";
+import pic2 from "./pic/icebergN222.png"
+import pic3 from "./pic/iceberg33.png";
 import axios from 'axios'; 
 
 

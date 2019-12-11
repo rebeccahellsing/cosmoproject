@@ -3,7 +3,7 @@ import React from 'react';
 import {
     AreaChart, /*LineChart,*/ Area, /*Line,*/ XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
-import './App.css';
+import '../App.css';
 import { Range } from 'rc-slider';
 
 //Functional Component 
