@@ -24,7 +24,7 @@ render() {
                     <a className="nav-link" href="#">politics</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">astrology</a>
+                    <a className="nav-link" href="#">astrology TEXT</a>
                 </li>
 
                 
