@@ -5,6 +5,15 @@ import {
 } from 'recharts';
 import '../App.css';
 import { Range } from 'rc-slider';
+import fblogo from "./pic/icons/facebook-logo.png";
+import twlogo from "./pic/icons/twitter.png";
+import pinlogo from "./pic/icons/pinterest.png";
+import pinSharePic from "./pic/pinterestShare.png";
+import {
+    FacebookShareButton,
+    TwitterShareButton,
+    PinterestShareButton,
+  } from 'react-share';
 
 //Functional Component 
 const Chart = (props) => {
@@ -21,10 +30,10 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
                     // also the genious who came up with the idea of including a "space" in their api is to be commended!
             {data.push( { //pushes the selected data into the const data declared at line 10
                 year: concStr,
-                GMSL: Math.round(seaLevel.GMSL),
+                'Global Genomsnittlig Havsnivå': Math.round(seaLevel.GMSL),
                 GMSLUncertain: seaLevel['GMSL uncertainty'],
-                GMSLPos: pos,
-                GMSLNeg: neg
+                'Positiv felmarginal': pos,
+                'Negativ felmarginal': neg
             } )}
     }
     return data; // unsure if this does anything but react got sad at one point where I did'nt include a return...
@@ -35,7 +44,7 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
         <div className="graph">
         <h5 className="card-title-graph">Waterlevels now and then</h5>
         <p className="chartP">The graph shows the water levels throughout the years. Slide the applicator to see how the levels changes from 1945-2014.</p>
-         <p className="descriptionCentimeter">Centimeter</p>
+         <p className="descriptionCentimeter">Millimeter</p>
 
             <AreaChart //LineChart uses Lines || AreaChart uses Area
             width={800}
@@ -48,9 +57,9 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
         <YAxis />
         <Tooltip />
         <Legend />
-        <Area type="monotone" dataKey="GMSL" stackId="2" stroke="#000" fill="#000" activeDot={{ r: 8 }} opacity={0.5} /> 
-        <Area type="monotone" dataKey="GMSLPos" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
-        <Area type="monotone" dataKey="GMSLNeg" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
+        <Area type="monotone" dataKey="Global Genomsnittlig Havsnivå" stackId="2" stroke="#000" fill="#000" activeDot={{ r: 8 }} opacity={0.5} /> 
+        <Area type="monotone" dataKey="Positiv felmarginal" stackId="1" stroke="#b4e2f0" fill="#b4e2f0" />
+        <Area type="monotone" dataKey="Negativ felmarginal" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
       </AreaChart> 
 
       <p className="descriptionYear">Year</p>
@@ -63,7 +72,35 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
             defaultValue={[1990, 2000]}
         /><p className="slider-text">Try It!</p>
         </div>
-        
+
+            <div className="socialmediaShareBox">
+            <p className="headingSocialmedia">Share on social media!</p>
+                <FacebookShareButton
+                    url='https://rebeccahellsing.github.io/cosmoproject/'
+                    title=''
+                    quote='Cosmopolitan enviroment'
+                    className="Demo__some-network__share-button">
+                        <img src={fblogo} className="SocialmediaShare"></img>
+                </FacebookShareButton>
+                
+                <TwitterShareButton
+                    url='https://rebeccahellsing.github.io/cosmoproject/'
+                    title=''
+                    quote='Cosmopolitan enviroment'
+                    className="Demo__some-network__share-button">
+                        <img src={twlogo} className="SocialmediaShare"></img>
+                </TwitterShareButton>
+
+                <PinterestShareButton
+                    url='https://rebeccahellsing.github.io/cosmoproject/'
+                    title=''
+                    quote='Cosmopolitan enviroment'
+                    media= {pinSharePic}
+                    className="Demo__some-network__share-button">
+                        <img src={pinlogo} className="SocialmediaShare"></img>
+                </PinterestShareButton>
+            </div>    
+
         </div>
     ); // The Line || Area above must match the chart ie. either LineChart for Line or AreaChart for Area
 }

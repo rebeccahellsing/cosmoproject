@@ -5,18 +5,27 @@ class Card extends React.Component {
     state = {
         counter: 0,
         none: "",
+        hnone: '',
+        header: this.props.header,
         text: this.props.text,
+        image: this.props.image,
+
     }
 
     onClickShowText = (event) => {
+      console.log(this.props); 
         if (this.state.counter === 0) {  
           this.setState({
             none: this.state.text,
+            hnone: this.state.header,
+            picnone: this.state.image,
             counter:1
           });
         } else {
           this.setState({
             none: "",
+            hnone: '',
+            picnone: '',
             counter: 0
           });
         }
@@ -36,7 +45,8 @@ class Card extends React.Component {
         <p className="card-api">{this.props.fuel}</p> 
         <p className="card-api-desc">Total Carbon Emissions From Fossil Fuels</p>
         <button className="descIceMelting" onClick={this.onClickShowText}><span>+</span></button>
-        <div className="timeCardDesc">{this.state.none}</div>
+        
+        <div className="timeCardDesc"><h3>{this.state.hnone}</h3> <p>{this.state.none}</p><img src= {this.state.picnone} className="picyear"></img></div>
         </div>
       </div>
       

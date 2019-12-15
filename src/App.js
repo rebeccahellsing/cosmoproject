@@ -11,8 +11,6 @@ import Chart from './components/Chart.js';
 import axios from 'axios'; 
 import 'rc-slider/assets/index.css';
 
-
-
 class App extends React.Component {
 
   state = {
@@ -44,11 +42,15 @@ onValueChange = (event) => {
   this.onSubmit();
 }
 
+onClickScroll = (event) => {
+  window.scrollTo(0, 0)
+}
 
 
 render () {
   return (
     <div className="App">
+       <span id='scrolltxt' onClick={this.onClickScroll}>⌃</span>
       <GlobalMenu />
       <Header />
       <TimeAxis data={this.state.data}/>
@@ -61,7 +63,8 @@ render () {
         submit={this.onSubmit} 
         onValueChange={this.onValueChange}
       />
-     
+    
+    
       <Footer />
     </div>
   );
