@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb438bd273ce286777ca56131072bca9",
+    "revision": "86bc34cde162dfb408564c67931399b8",
     "url": "/cosmoproject/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/css/2.40d82f05.chunk.css"
   },
   {
-    "revision": "a6aabd4025e1016a7b7a",
-    "url": "/cosmoproject/static/css/main.9bfa68af.chunk.css"
+    "revision": "d868e31cbe7c18c3165a",
+    "url": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css"
   },
   {
     "revision": "b91b41d9c2ecfdf2d184",
     "url": "/cosmoproject/static/js/2.2468876c.chunk.js"
   },
   {
-    "revision": "a6aabd4025e1016a7b7a",
-    "url": "/cosmoproject/static/js/main.802dec8d.chunk.js"
+    "revision": "d868e31cbe7c18c3165a",
+    "url": "/cosmoproject/static/js/main.e55e7408.chunk.js"
   },
   {
     "revision": "576313862a7bf8d302f1",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/media/isberg5.18e84638.png"
   },
   {
-    "revision": "4b27a23547608144a7227bcb317f220c",
-    "url": "/cosmoproject/static/media/isberg6.4b27a235.png"
-  },
-  {
     "revision": "ae3b5e8baeabd644ff1326f8a2ad8354",
     "url": "/cosmoproject/static/media/logotype.ae3b5e8b.png"
   },
@@ -82,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "47a263346a85589cbe70ebd1083a8f3d",
     "url": "/cosmoproject/static/media/pinterestShare.47a26334.png"
+  },
+  {
+    "revision": "6bfd14d8f730cf869146acf9247f5bf6",
+    "url": "/cosmoproject/static/media/sol2.6bfd14d8.gif"
   },
   {
     "revision": "bc3c9b87311ca3461606ff376ed64dc3",
