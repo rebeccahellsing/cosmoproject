@@ -6,7 +6,6 @@ import pic3 from "./pic/isberg3.png";
 import pic4 from "./pic/isberg4.png";
 import pic5 from "./pic/isberg5.png";
 import pic6 from "./pic/isberg6.png";
-import pic1940 from "./pic/1940blush.gif";
 import axios from 'axios'; 
 import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';
@@ -198,7 +197,7 @@ render(props) {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 1020px;
+  min-height: 900px;
 `;
 
 const Arrow = styled.div`
@@ -235,17 +234,17 @@ const Carousel = makeCarousel(CarouselUI);
             <Carousel maxTurns={0}>
               <Slide right>
                 <div className="card-deck" data-interval="false !important">
-                  <Card year={this.state.firstYear} temp={this.state.firstTemp} mass={this.state.firstMass} fuel={this.state.firstFuel} img={pic1} header="In year 1945" text="This year the second world war ended and people could finally start buying more and more stuff. Makeup and fashionable clothes was on everyone’s wish list. Mass producing starts, and uses the earth's resources." image={pic1940}/>
-                  <Card year={this.state.secondYear} temp={this.state.secondTemp} mass={this.state.secondMass} fuel={this.state.secondFuel} img={pic2} header="In year 1960" text="This was the time of mini skirts, summer of love and let’s not forget Twiggi. It was also the year we started wearing tweed. Everyone needed it in their wardrobe to prove their fashion sense, so factories started a mass produce." image={pic1940}/>
-                  <Card year={this.state.thirdYear} temp={this.state.thirdTemp} mass={this.state.thirdMass} fuel={this.state.thirdFuel} img={pic3} header="In year 1971" text="Everyone loves Farah Foster and wants that perfect hair. For that you needed a whole bottle of hairspray. The hairspray was made with chemicals that affected the ozone layer." image={pic1940}/>               
+                  <Card year={this.state.firstYear} temp={this.state.firstTemp} mass={this.state.firstMass} fuel={this.state.firstFuel} img={pic1} header="Give me more" text="The second world war ended and people could finally start buying more and more stuff. Makeup and fashionable clothes was on everyone’s wish list. Mass producing starts, and uses the earth's resources." />
+                  <Card year={this.state.secondYear} temp={this.state.secondTemp} mass={this.state.secondMass} fuel={this.state.secondFuel} img={pic2} header="Tweed it is" text="This was the time of mini skirts, summer of love and let’s not forget Twiggy. We also started wearing tweed. Everyone needed it in their wardrobe to prove their fashion sense, so factories started a mass produce." />
+                  <Card year={this.state.thirdYear} temp={this.state.thirdTemp} mass={this.state.thirdMass} fuel={this.state.thirdFuel} img={pic3} header="Big hair don't care" text="The year is 1971 and Charlie's Angels is airing. Everyone loves Farah Foster and wants that perfect hair. For that you needed a whole bottle of hairspray. The hairspray was made with chemicals that affected the ozone layer." />               
                 </div>
               </Slide>
 
               <Slide right>
                 <div className="card-deck" data-interval="false !important">
-                  <Card year={this.state.fourthYear} temp={this.state.fourthTemp} mass={this.state.fourthMass} fuel={this.state.fourthFuel} img={pic4} header="In year 1980" text="This year the second world war ended and people could finally start buying more and more stuff. Makeup and fashionable clothes was on everyone’s wish list. Mass producing starts, and uses the earth's resources." image={pic1940}/>
-                  <Card year={this.state.fifthYear} temp={this.state.fifthTemp} mass={this.state.fifthMass} fuel={this.state.fifthFuel} img={pic5} header="In year 1990" text="This year we learned about the pollution problems in LA. Every car was cruising down the road listening to Roxette’s hit song “It must have been love”. Not knowing what our cars was releasing into the earth's atmosphere." image={pic1940}/>
-                  <Card year={this.state.sixthYear} temp={this.state.sixthTemp} mass={this.state.sixthMass} fuel={this.state.sixthFuel} img={pic6} header="In year 2014" text="Smartphones became more computer like instead of a thing to call or text on. Companies offered more stuff, this through a smartphone. One being cheap flights, making everyone start to explore the world." image={pic1940}/>                              
+                  <Card year={this.state.fourthYear} temp={this.state.fourthTemp} mass={this.state.fourthMass} fuel={this.state.fourthFuel} img={pic4} header="Mother earth i'm sorry" text="A lot of people wants to forget about the shoulder pads, big hair and the makeup. But this decade is also one mother earth even wants to forget about due to the lack of knowledge about recycling." />
+                  <Card year={this.state.fifthYear} temp={this.state.fifthTemp} mass={this.state.fifthMass} fuel={this.state.fifthFuel} img={pic5} header="Driving in my car" text="We learned about the pollution problems in LA. Every car was cruising down the road listening to Roxette’s hit song “It must have been love”. Not knowing what our cars was releasing into the earth's atmosphere." />
+                  <Card year={this.state.sixthYear} temp={this.state.sixthTemp} mass={this.state.sixthMass} fuel={this.state.sixthFuel} img={pic6} header="Me and my smartphone" text="Smartphones became more computer like instead of a thing to call or text on. Companies offered more stuff, this through a smartphone. One being cheap flights, making everyone start to explore the world." />                              
                 </div>
               </Slide>
 

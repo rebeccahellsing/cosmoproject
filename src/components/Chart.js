@@ -30,10 +30,10 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
                     // also the genious who came up with the idea of including a "space" in their api is to be commended!
             {data.push( { //pushes the selected data into the const data declared at line 10
                 year: concStr,
-                'Global Genomsnittlig Havsnivå': Math.round(seaLevel.GMSL),
+                'Global average sea level': Math.round(seaLevel.GMSL),
                 GMSLUncertain: seaLevel['GMSL uncertainty'],
-                'Positiv felmarginal': pos,
-                'Negativ felmarginal': neg
+                'Positve margin of error': pos,
+                'Negative margin of error': neg
             } )}
     }
     return data; // unsure if this does anything but react got sad at one point where I did'nt include a return...
@@ -57,9 +57,9 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
         <YAxis />
         <Tooltip />
         <Legend />
-        <Area type="monotone" dataKey="Global Genomsnittlig Havsnivå" stackId="2" stroke="#000" fill="#000" activeDot={{ r: 8 }} opacity={0.5} /> 
-        <Area type="monotone" dataKey="Positiv felmarginal" stackId="1" stroke="#b4e2f0" fill="#b4e2f0" />
-        <Area type="monotone" dataKey="Negativ felmarginal" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
+        <Area type="monotone" dataKey="Global average sea level" stackId="2" stroke="#000" fill="#000" activeDot={{ r: 8 }} opacity={0.5} /> 
+        <Area type="monotone" dataKey="Positve margin of error" stackId="1" stroke="#b4e2f0" fill="#b4e2f0" />
+        <Area type="monotone" dataKey="Negative margin of error" stackId="3" stroke="#b4e2f0" fill="#b4e2f0" />
       </AreaChart> 
 
       <p className="descriptionYear">Year</p>
