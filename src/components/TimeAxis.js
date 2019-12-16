@@ -5,7 +5,7 @@ import pic2 from "./pic/isberg2.gif"
 import pic3 from "./pic/isberg3.png";
 import pic4 from "./pic/isberg4.png";
 import pic5 from "./pic/isberg5.png";
-import pic6 from "./pic/isberg6.png";
+import pic6 from "./pic/sol2.gif";
 import axios from 'axios'; 
 import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';

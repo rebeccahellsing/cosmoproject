@@ -43,7 +43,9 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
     return(
         <div className="graph">
         <h5 className="card-title-graph">Waterlevels now and then</h5>
-        <p className="chartP">The graph shows the water levels throughout the years. Slide the applicator to see how the levels changes from 1945-2014.</p>
+        <p className="chartP">Here you can see how global warming, pollutions and people have affected the ice caps by making them melt and therefore increasing the sea levels all around the world. </p>
+
+                              <p className="chartP slidingtxt"><i>By sliding the applicator you can see how the levels have changed from 1945-2014.</i></p>
          <p className="descriptionCentimeter">Millimeter</p>
 
             <AreaChart //LineChart uses Lines || AreaChart uses Area
