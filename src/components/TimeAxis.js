@@ -3,9 +3,9 @@ import Card from './Card.js';
 import pic1 from "./pic/isberg1.gif";
 import pic2 from "./pic/isberg2.gif"
 import pic3 from "./pic/isberg3.png";
-import pic4 from "./pic/isberg4.png";
+import pic4 from "./pic/rain-iceberg2.gif";
 import pic5 from "./pic/isberg5.png";
-import pic6 from "./pic/sol2.gif";
+import pic6 from "./pic/sol3.gif";
 import axios from 'axios'; 
 import makeCarousel from 'react-reveal/makeCarousel';
 import Slide from 'react-reveal/Slide';
