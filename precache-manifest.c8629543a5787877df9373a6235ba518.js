@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86bc34cde162dfb408564c67931399b8",
+    "revision": "2ba50aac350716b1fe6c43d1aaf90776",
     "url": "/cosmoproject/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/css/2.40d82f05.chunk.css"
   },
   {
-    "revision": "d868e31cbe7c18c3165a",
+    "revision": "8630abfe71aa1770ccce",
     "url": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/js/2.2468876c.chunk.js"
   },
   {
-    "revision": "d868e31cbe7c18c3165a",
-    "url": "/cosmoproject/static/js/main.e55e7408.chunk.js"
+    "revision": "8630abfe71aa1770ccce",
+    "url": "/cosmoproject/static/js/main.ca68dbe5.chunk.js"
   },
   {
     "revision": "576313862a7bf8d302f1",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92c6a6a5a736378a8f16dbc7c6ad4a3f",
     "url": "/cosmoproject/static/media/isberg3.92c6a6a5.png"
-  },
-  {
-    "revision": "e50edd4f18eee484817d42f07ee981a3",
-    "url": "/cosmoproject/static/media/isberg4.e50edd4f.png"
   },
   {
     "revision": "18e846385249a25e969cef4cfcc9f652",
@@ -80,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/media/pinterestShare.47a26334.png"
   },
   {
-    "revision": "6bfd14d8f730cf869146acf9247f5bf6",
-    "url": "/cosmoproject/static/media/sol2.6bfd14d8.gif"
+    "revision": "885f9dcec6bfd038bd427b652675062f",
+    "url": "/cosmoproject/static/media/rain-iceberg2.885f9dce.gif"
+  },
+  {
+    "revision": "74b9cdfedc820266952f22f545d84407",
+    "url": "/cosmoproject/static/media/sol3.74b9cdfe.gif"
   },
   {
     "revision": "bc3c9b87311ca3461606ff376ed64dc3",
