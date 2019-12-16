@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff5d414bb98d25819cf94a7dcd0a08c9",
+    "revision": "fb438bd273ce286777ca56131072bca9",
     "url": "/cosmoproject/index.html"
   },
   {
-    "revision": "ad2f2f074c2989076eb3",
+    "revision": "b91b41d9c2ecfdf2d184",
     "url": "/cosmoproject/static/css/2.40d82f05.chunk.css"
   },
   {
-    "revision": "c92a4bd9ce0f169e7550",
-    "url": "/cosmoproject/static/css/main.64f9d444.chunk.css"
+    "revision": "a6aabd4025e1016a7b7a",
+    "url": "/cosmoproject/static/css/main.9bfa68af.chunk.css"
   },
   {
-    "revision": "ad2f2f074c2989076eb3",
-    "url": "/cosmoproject/static/js/2.67085392.chunk.js"
+    "revision": "b91b41d9c2ecfdf2d184",
+    "url": "/cosmoproject/static/js/2.2468876c.chunk.js"
   },
   {
-    "revision": "c92a4bd9ce0f169e7550",
-    "url": "/cosmoproject/static/js/main.e9afac1c.chunk.js"
+    "revision": "a6aabd4025e1016a7b7a",
+    "url": "/cosmoproject/static/js/main.802dec8d.chunk.js"
   },
   {
     "revision": "576313862a7bf8d302f1",
     "url": "/cosmoproject/static/js/runtime-main.350c96ba.js"
-  },
-  {
-    "revision": "a7a54d4d72adb17b25b72d86a5ab5449",
-    "url": "/cosmoproject/static/media/1940blush.a7a54d4d.gif"
   },
   {
     "revision": "83114595ffa3d731d86a485548750975",

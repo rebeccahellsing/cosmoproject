@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/cosmoproject/static/css/main.64f9d444.chunk.css",
-    "main.js": "/cosmoproject/static/js/main.e9afac1c.chunk.js",
-    "main.js.map": "/cosmoproject/static/js/main.e9afac1c.chunk.js.map",
+    "main.css": "/cosmoproject/static/css/main.9bfa68af.chunk.css",
+    "main.js": "/cosmoproject/static/js/main.802dec8d.chunk.js",
+    "main.js.map": "/cosmoproject/static/js/main.802dec8d.chunk.js.map",
     "runtime-main.js": "/cosmoproject/static/js/runtime-main.350c96ba.js",
     "runtime-main.js.map": "/cosmoproject/static/js/runtime-main.350c96ba.js.map",
     "static/css/2.40d82f05.chunk.css": "/cosmoproject/static/css/2.40d82f05.chunk.css",
-    "static/js/2.67085392.chunk.js": "/cosmoproject/static/js/2.67085392.chunk.js",
-    "static/js/2.67085392.chunk.js.map": "/cosmoproject/static/js/2.67085392.chunk.js.map",
+    "static/js/2.2468876c.chunk.js": "/cosmoproject/static/js/2.2468876c.chunk.js",
+    "static/js/2.2468876c.chunk.js.map": "/cosmoproject/static/js/2.2468876c.chunk.js.map",
     "index.html": "/cosmoproject/index.html",
-    "precache-manifest.141473d7d1039e542c73e8c750ef14ef.js": "/cosmoproject/precache-manifest.141473d7d1039e542c73e8c750ef14ef.js",
+    "precache-manifest.361899132c2d2e6fe2efba68d5a93a01.js": "/cosmoproject/precache-manifest.361899132c2d2e6fe2efba68d5a93a01.js",
     "service-worker.js": "/cosmoproject/service-worker.js",
     "static/css/2.40d82f05.chunk.css.map": "/cosmoproject/static/css/2.40d82f05.chunk.css.map",
-    "static/css/main.64f9d444.chunk.css.map": "/cosmoproject/static/css/main.64f9d444.chunk.css.map",
-    "static/media/1940blush.gif": "/cosmoproject/static/media/1940blush.a7a54d4d.gif",
+    "static/css/main.9bfa68af.chunk.css.map": "/cosmoproject/static/css/main.9bfa68af.chunk.css.map",
     "static/media/cosmoheader.gif": "/cosmoproject/static/media/cosmoheader.83114595.gif",
     "static/media/instagram-logo.png": "/cosmoproject/static/media/instagram-logo.4d0304e2.png",
     "static/media/isberg1.gif": "/cosmoproject/static/media/isberg1.737d520e.gif",
@@ -35,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.350c96ba.js",
     "static/css/2.40d82f05.chunk.css",
-    "static/js/2.67085392.chunk.js",
-    "static/css/main.64f9d444.chunk.css",
-    "static/js/main.e9afac1c.chunk.js"
+    "static/js/2.2468876c.chunk.js",
+    "static/css/main.9bfa68af.chunk.css",
+    "static/js/main.802dec8d.chunk.js"
   ]
 }
