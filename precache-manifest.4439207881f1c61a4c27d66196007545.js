@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ba50aac350716b1fe6c43d1aaf90776",
+    "revision": "1cbdf35dad2d8106cca8e423af6c8828",
     "url": "/cosmoproject/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/css/2.40d82f05.chunk.css"
   },
   {
-    "revision": "8630abfe71aa1770ccce",
+    "revision": "f33472270eeb99901026",
     "url": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/js/2.2468876c.chunk.js"
   },
   {
-    "revision": "8630abfe71aa1770ccce",
-    "url": "/cosmoproject/static/js/main.ca68dbe5.chunk.js"
+    "revision": "f33472270eeb99901026",
+    "url": "/cosmoproject/static/js/main.3efa5374.chunk.js"
   },
   {
     "revision": "576313862a7bf8d302f1",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/media/instagram-logo.4d0304e2.png"
   },
   {
-    "revision": "737d520ee4042edd36f6d7f6d9ba2b03",
-    "url": "/cosmoproject/static/media/isberg1.737d520e.gif"
+    "revision": "8b2afe5dc19eafffaae974b8c0282e72",
+    "url": "/cosmoproject/static/media/isberg1.8b2afe5d.gif"
   },
   {
-    "revision": "99364b4e946d90dfd06e1594ae421151",
-    "url": "/cosmoproject/static/media/isberg2.99364b4e.gif"
+    "revision": "61d522fb40c723af2da6869ef39a232b",
+    "url": "/cosmoproject/static/media/isberg2.61d522fb.gif"
   },
   {
     "revision": "92c6a6a5a736378a8f16dbc7c6ad4a3f",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/media/pinterestShare.47a26334.png"
   },
   {
-    "revision": "885f9dcec6bfd038bd427b652675062f",
-    "url": "/cosmoproject/static/media/rain-iceberg2.885f9dce.gif"
+    "revision": "3cc7c77d187f95caa9db9888574d327a",
+    "url": "/cosmoproject/static/media/rainiceberg.3cc7c77d.gif"
   },
   {
     "revision": "74b9cdfedc820266952f22f545d84407",
