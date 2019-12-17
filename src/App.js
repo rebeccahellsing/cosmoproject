@@ -23,8 +23,8 @@ class App extends React.Component {
 
 
 onSubmit = async () => {
+  
   const response = await(axios.get('https://my.api.mockaroo.com/sealevel.json?key=8eb9e6f0'))
-
   this.setState({
     data: response.data
   }); 
@@ -39,7 +39,6 @@ onValueChange = (event) => {
     curMin: event[0],
     curMax: event[1]
   });
-  this.onSubmit();
 }
 
 onClickScroll = (event) => {

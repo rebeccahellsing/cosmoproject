@@ -82,7 +82,7 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
                     title=''
                     quote='Cosmopolitan enviroment'
                     className="Demo__some-network__share-button">
-                        <img src={fblogo} className="SocialmediaShare"></img>
+                        <img src={fblogo} className="SocialmediaShare" alt="Sociala media facebooklogotype"></img>
                 </FacebookShareButton>
                 
                 <TwitterShareButton
@@ -90,7 +90,7 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
                     title=''
                     quote='Cosmopolitan enviroment'
                     className="Demo__some-network__share-button">
-                        <img src={twlogo} className="SocialmediaShare"></img>
+                        <img src={twlogo} className="SocialmediaShare" alt="Sociala media twitterlogotype"></img>
                 </TwitterShareButton>
 
                 <PinterestShareButton
@@ -99,7 +99,7 @@ props.data.map( (seaLevel) => { //map ≈ for each. Each object iterated in the 
                     quote='Cosmopolitan enviroment'
                     media= {pinSharePic}
                     className="Demo__some-network__share-button">
-                        <img src={pinlogo} className="SocialmediaShare"></img>
+                        <img src={pinlogo} className="SocialmediaShare" alt="Sociala media twitterlogotype"></img>
                 </PinterestShareButton>
             </div>    
 
