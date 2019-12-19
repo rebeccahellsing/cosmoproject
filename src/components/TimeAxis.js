@@ -187,10 +187,6 @@ return 1;
       this.callApi(); 
     }
 
-
-
-
-
 render(props) {
   const Container = styled.div`
   text-align:center;
@@ -200,9 +196,10 @@ render(props) {
   min-height: 900px;
 `;
 
+//color: #9fb6c6;  
+//text-shadow: 0.5px 0.5px 0.5px #000000;
 const Arrow = styled.div`
-  text-shadow: 0.5px 0.5px 0.5px #000000;
-  color: #9fb6c6; 
+  opacity: 20%; 
   z-index: 100;
   text-align: center;
   position: absolute;
