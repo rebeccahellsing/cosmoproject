@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "704054a2745fac2aaa592ccc5d0943dd",
+    "revision": "3296289ef4c3031938d183fb25948ec3",
     "url": "/cosmoproject/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmoproject/static/css/2.40d82f05.chunk.css"
   },
   {
-    "revision": "e2257fa647ee3788ce31",
-    "url": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css"
+    "revision": "f9ef1c43a6a7bad918e2",
+    "url": "/cosmoproject/static/css/main.c84b5a19.chunk.css"
   },
   {
     "revision": "b91b41d9c2ecfdf2d184",
     "url": "/cosmoproject/static/js/2.2468876c.chunk.js"
   },
   {
-    "revision": "e2257fa647ee3788ce31",
-    "url": "/cosmoproject/static/js/main.c4c71d41.chunk.js"
+    "revision": "f9ef1c43a6a7bad918e2",
+    "url": "/cosmoproject/static/js/main.62a09928.chunk.js"
   },
   {
     "revision": "576313862a7bf8d302f1",
