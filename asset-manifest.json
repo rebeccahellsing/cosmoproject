@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css",
-    "main.js": "/cosmoproject/static/js/main.3efa5374.chunk.js",
-    "main.js.map": "/cosmoproject/static/js/main.3efa5374.chunk.js.map",
+    "main.js": "/cosmoproject/static/js/main.c4c71d41.chunk.js",
+    "main.js.map": "/cosmoproject/static/js/main.c4c71d41.chunk.js.map",
     "runtime-main.js": "/cosmoproject/static/js/runtime-main.350c96ba.js",
     "runtime-main.js.map": "/cosmoproject/static/js/runtime-main.350c96ba.js.map",
     "static/css/2.40d82f05.chunk.css": "/cosmoproject/static/css/2.40d82f05.chunk.css",
     "static/js/2.2468876c.chunk.js": "/cosmoproject/static/js/2.2468876c.chunk.js",
     "static/js/2.2468876c.chunk.js.map": "/cosmoproject/static/js/2.2468876c.chunk.js.map",
     "index.html": "/cosmoproject/index.html",
-    "precache-manifest.4439207881f1c61a4c27d66196007545.js": "/cosmoproject/precache-manifest.4439207881f1c61a4c27d66196007545.js",
+    "precache-manifest.c8549ac6490e3f717c6e6c2473fca788.js": "/cosmoproject/precache-manifest.c8549ac6490e3f717c6e6c2473fca788.js",
     "service-worker.js": "/cosmoproject/service-worker.js",
     "static/css/2.40d82f05.chunk.css.map": "/cosmoproject/static/css/2.40d82f05.chunk.css.map",
     "static/css/main.ddd5e1e6.chunk.css.map": "/cosmoproject/static/css/main.ddd5e1e6.chunk.css.map",
     "static/media/cosmoheader.gif": "/cosmoproject/static/media/cosmoheader.83114595.gif",
     "static/media/instagram-logo.png": "/cosmoproject/static/media/instagram-logo.4d0304e2.png",
-    "static/media/isberg1.gif": "/cosmoproject/static/media/isberg1.8b2afe5d.gif",
+    "static/media/isberg1.gif": "/cosmoproject/static/media/isberg1.462836d9.gif",
     "static/media/isberg2.gif": "/cosmoproject/static/media/isberg2.61d522fb.gif",
     "static/media/isberg3.png": "/cosmoproject/static/media/isberg3.92c6a6a5.png",
     "static/media/isberg5.png": "/cosmoproject/static/media/isberg5.18e84638.png",
@@ -26,7 +26,7 @@
     "static/media/num3.gif": "/cosmoproject/static/media/num3.2accfe5d.gif",
     "static/media/pinterest.png": "/cosmoproject/static/media/pinterest.0b952dcd.png",
     "static/media/pinterestShare.png": "/cosmoproject/static/media/pinterestShare.47a26334.png",
-    "static/media/rainiceberg.gif": "/cosmoproject/static/media/rainiceberg.3cc7c77d.gif",
+    "static/media/rainiceberg.gif": "/cosmoproject/static/media/rainiceberg.e586c6f7.gif",
     "static/media/sol3.gif": "/cosmoproject/static/media/sol3.74b9cdfe.gif",
     "static/media/tallpic4.gif": "/cosmoproject/static/media/tallpic4.bc3c9b87.gif",
     "static/media/twitter.png": "/cosmoproject/static/media/twitter.e697fcb8.png"
@@ -36,6 +36,6 @@
     "static/css/2.40d82f05.chunk.css",
     "static/js/2.2468876c.chunk.js",
     "static/css/main.ddd5e1e6.chunk.css",
-    "static/js/main.3efa5374.chunk.js"
+    "static/js/main.c4c71d41.chunk.js"
   ]
 }
